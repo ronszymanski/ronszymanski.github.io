@@ -1,0 +1,147 @@
+baseURL: "https://ronszymanski.github.io"
+languageCode: "en-us"
+title: "Ron Szymanski | Analytics & Data Science Leader"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: projects
+      name: Projects
+      title: Projects
+      url: /projects
+      weight: 2
+
+params:
+  title: "Ron Szymanski"
+  description: "Analytics & Data Science Leader | Digital Marketing | SEO | SEM | Web Dev | E-commerce"
+  favicon: "/fav.png"
+  useBootstrapCDN: false
+  animate: true
+
+  navbar:
+    align: ms-auto
+    brandName: "Ron Szymanski"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Ron Szymanski."
+    subtitle: "Analytics & Data Science Leader"
+    content: "Driving business growth through data-driven strategies in digital marketing, SEO, SEM, and web development."
+    image: /images/hero.svg
+    button:
+      enable: true
+      name: "View Resume"
+      url: "/resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/ronaldszymanski
+        - icon: fab fa-github
+          url: https://github.com/ronszymanski
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/Ron_450x600_github.jpg"
+    content: |
+      Analytics & Data Science leader with global experience in digital marketing, e-commerce, SEO, SEM, and web development. Proven ability to extract insights from data to drive business growth and ROI.
+    skills:
+      enable: true
+      title: "Core Skills:"
+      items:
+        - "Data Analysis"
+        - "Digital Marketing"
+        - "SEO & SEM"
+        - "Web Development"
+        - "E-commerce"
+        - "Analytics Strategy"
+
+  experience:
+    enable: true
+    items:
+      - title: "Agency-Side Experience (Analytics & Data Science Leadership)"
+        date: "May 2021 - Present"
+        content: |
+          **Senior Director, Data Science & Analytics**  
+          *Cronin* | Nov 2023 - Present  
+          - Lead data-driven strategies, mentor analytics teams, and enhance marketing performance.  
+          - Skills: Data Strategy, Client Engagement, Advanced Analytics.  
+          
+          **Senior Manager, Media Analytics**  
+          *Merkle* | Jun 2022 - Nov 2023  
+          - Developed optimization strategies and advanced measurement solutions.  
+          - Skills: Media Analytics, Optimization, Reporting.  
+
+      - title: "Client-Side Experience (Digital Marketing & Web Development)"
+        date: "Aug 2011 - May 2021"
+        content: |
+          **Digital Marketing & E-commerce Manager - Pro Audio**  
+          *Sennheiser* | Jan 2019 - May 2021  
+          - Led digital campaigns, SEO, SEM, and marketing automation.  
+          - Skills: SEO, SEM, Marketing Automation.  
+          
+          **Head of Global Online Development**  
+          *Sennheiser* | Jan 2015 - Jan 2019  
+          - Managed global web properties and supported digital marketing.  
+          - Skills: Full-Stack Development, Web Optimization.  
+
+      - title: "Military Experience (Analytics & Data Analysis)"
+        date: "Jul 2005 - Jun 2017"
+        content: |
+          **Maintenance Analyst**  
+          *Air National Guard* | Jul 2005 - Jun 2017  
+          - Conducted statistical analysis, data mining, and reporting.  
+          - Skills: Statistical Analysis, Data Mining, Reporting.  
+
+  education:
+    enable: true
+    items:
+      - title: "MBA, Business Analytics"
+        school:
+          name: "University of New Haven"
+        date: "2024"
+      - title: "Bachelor of Science in Management & Organization"
+        school:
+          name: "Central Connecticut State University"
+        date: "2008"
+
+  contact:
+    enable: true
+    content: "Let's connect! Feel free to reach out for collaborations or inquiries."
+    btnName: "Email Me"
+    btnLink: "mailto:ron.szymanski@me.com"
+
+  footer:
+    socialNetworks:
+      linkedin: https://www.linkedin.com/in/ronaldszymanski
+      github: https://github.com/ronszymanski
