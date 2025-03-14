@@ -2,6 +2,8 @@ baseURL: "https://ronszymanski.github.io"
 languageCode: "en-us"
 title: "Ron Szymanski | Analytics & Data Science Leader"
 theme: hugo-profile
+# Set the output directory to "docs" for GitHub Pages
+publishDir: "docs"
 
 outputs:
   home:
@@ -20,18 +22,7 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: projects
-      name: Projects
-      title: Projects
-      url: /projects
-      weight: 2
+
 
 params:
   title: "Ron Szymanski"
@@ -57,10 +48,10 @@ params:
     content: "Driving business growth through data-driven strategies in digital marketing, SEO, SEM, and web development."
     image: /images/hero.svg
     button:
-      enable: true
+      enable: false
       name: "View Resume"
       url: "/resume.pdf"
-      download: true
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
